@@ -16,6 +16,7 @@
 		D3557AD82529A45900667401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AD72529A45900667401 /* main.m */; };
 		D3557AE22529A45900667401 /* DoItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AE12529A45900667401 /* DoItTests.m */; };
 		D3557AED2529A45900667401 /* DoItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AEC2529A45900667401 /* DoItUITests.m */; };
+		D3557B002529A4A500667401 /* WeakStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AFF2529A4A500667401 /* WeakStrong.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D3557AE82529A45900667401 /* DoItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3557AEC2529A45900667401 /* DoItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoItUITests.m; sourceTree = "<group>"; };
 		D3557AEE2529A45900667401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3557AFE2529A4A500667401 /* WeakStrong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakStrong.h; sourceTree = "<group>"; };
+		D3557AFF2529A4A500667401 /* WeakStrong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakStrong.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		D3557AB92529A45600667401 = {
 			isa = PBXGroup;
 			children = (
+				D3557AFD2529A47600667401 /* weak&strong */,
 				D3557AC42529A45600667401 /* DoIt */,
 				D3557AE02529A45900667401 /* DoItTests */,
 				D3557AEB2529A45900667401 /* DoItUITests */,
@@ -135,6 +139,15 @@
 				D3557AEE2529A45900667401 /* Info.plist */,
 			);
 			path = DoItUITests;
+			sourceTree = "<group>";
+		};
+		D3557AFD2529A47600667401 /* weak&strong */ = {
+			isa = PBXGroup;
+			children = (
+				D3557AFE2529A4A500667401 /* WeakStrong.h */,
+				D3557AFF2529A4A500667401 /* WeakStrong.m */,
+			);
+			path = "weak&strong";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 				D3557AC72529A45600667401 /* AppDelegate.m in Sources */,
 				D3557AD82529A45900667401 /* main.m in Sources */,
 				D3557ACA2529A45600667401 /* SceneDelegate.m in Sources */,
+				D3557B002529A4A500667401 /* WeakStrong.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
