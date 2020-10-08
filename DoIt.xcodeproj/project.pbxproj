@@ -18,6 +18,7 @@
 		D3557AED2529A45900667401 /* DoItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AEC2529A45900667401 /* DoItUITests.m */; };
 		D3557B002529A4A500667401 /* WeakStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AFF2529A4A500667401 /* WeakStrong.m */; };
 		D3A1E04D252F2A8A00DE59E3 /* ThreadLive.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A1E04C252F2A8A00DE59E3 /* ThreadLive.m */; };
+		D3A1E063252F38A900DE59E3 /* SeMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A1E062252F38A900DE59E3 /* SeMonitorController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D3557AFF2529A4A500667401 /* WeakStrong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakStrong.m; sourceTree = "<group>"; };
 		D3A1E04B252F2A8A00DE59E3 /* ThreadLive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadLive.h; sourceTree = "<group>"; };
 		D3A1E04C252F2A8A00DE59E3 /* ThreadLive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadLive.m; sourceTree = "<group>"; };
+		D3A1E061252F38A900DE59E3 /* SeMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeMonitorController.h; sourceTree = "<group>"; };
+		D3A1E062252F38A900DE59E3 /* SeMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeMonitorController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		D3557AB92529A45600667401 = {
 			isa = PBXGroup;
 			children = (
+				D3A1E060252F389B00DE59E3 /* 监控卡顿 */,
 				D3A1E04A252F29E800DE59E3 /* 线程保活 */,
 				D3557AFD2529A47600667401 /* weak&strong */,
 				D3557AC42529A45600667401 /* DoIt */,
@@ -161,6 +165,15 @@
 				D3A1E04C252F2A8A00DE59E3 /* ThreadLive.m */,
 			);
 			path = "线程保活";
+			sourceTree = "<group>";
+		};
+		D3A1E060252F389B00DE59E3 /* 监控卡顿 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1E061252F38A900DE59E3 /* SeMonitorController.h */,
+				D3A1E062252F38A900DE59E3 /* SeMonitorController.m */,
+			);
+			path = "监控卡顿";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +308,7 @@
 				D3557ACD2529A45600667401 /* ViewController.m in Sources */,
 				D3557AC72529A45600667401 /* AppDelegate.m in Sources */,
 				D3557AD82529A45900667401 /* main.m in Sources */,
+				D3A1E063252F38A900DE59E3 /* SeMonitorController.m in Sources */,
 				D3A1E04D252F2A8A00DE59E3 /* ThreadLive.m in Sources */,
 				D3557ACA2529A45600667401 /* SceneDelegate.m in Sources */,
 				D3557B002529A4A500667401 /* WeakStrong.m in Sources */,
