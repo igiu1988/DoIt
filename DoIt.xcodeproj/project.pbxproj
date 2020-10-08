@@ -17,6 +17,7 @@
 		D3557AE22529A45900667401 /* DoItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AE12529A45900667401 /* DoItTests.m */; };
 		D3557AED2529A45900667401 /* DoItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AEC2529A45900667401 /* DoItUITests.m */; };
 		D3557B002529A4A500667401 /* WeakStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = D3557AFF2529A4A500667401 /* WeakStrong.m */; };
+		D3A1E04D252F2A8A00DE59E3 /* ThreadLive.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A1E04C252F2A8A00DE59E3 /* ThreadLive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D3557AEE2529A45900667401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3557AFE2529A4A500667401 /* WeakStrong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakStrong.h; sourceTree = "<group>"; };
 		D3557AFF2529A4A500667401 /* WeakStrong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakStrong.m; sourceTree = "<group>"; };
+		D3A1E04B252F2A8A00DE59E3 /* ThreadLive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadLive.h; sourceTree = "<group>"; };
+		D3A1E04C252F2A8A00DE59E3 /* ThreadLive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadLive.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		D3557AB92529A45600667401 = {
 			isa = PBXGroup;
 			children = (
+				D3A1E04A252F29E800DE59E3 /* 线程保活 */,
 				D3557AFD2529A47600667401 /* weak&strong */,
 				D3557AC42529A45600667401 /* DoIt */,
 				D3557AE02529A45900667401 /* DoItTests */,
@@ -148,6 +152,15 @@
 				D3557AFF2529A4A500667401 /* WeakStrong.m */,
 			);
 			path = "weak&strong";
+			sourceTree = "<group>";
+		};
+		D3A1E04A252F29E800DE59E3 /* 线程保活 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1E04B252F2A8A00DE59E3 /* ThreadLive.h */,
+				D3A1E04C252F2A8A00DE59E3 /* ThreadLive.m */,
+			);
+			path = "线程保活";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +295,7 @@
 				D3557ACD2529A45600667401 /* ViewController.m in Sources */,
 				D3557AC72529A45600667401 /* AppDelegate.m in Sources */,
 				D3557AD82529A45900667401 /* main.m in Sources */,
+				D3A1E04D252F2A8A00DE59E3 /* ThreadLive.m in Sources */,
 				D3557ACA2529A45600667401 /* SceneDelegate.m in Sources */,
 				D3557B002529A4A500667401 /* WeakStrong.m in Sources */,
 			);
@@ -458,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6M2X75A78;
 				INFOPLIST_FILE = DoIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6M2X75A78;
 				INFOPLIST_FILE = DoIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
